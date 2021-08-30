@@ -1,0 +1,27 @@
+{
+  "name": "peditor-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.2",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anksus/peditor-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anksus/peditor-server/issues"
+  },
+  "homepage": "https://github.com/Anksus/peditor-server#readme"
+}
