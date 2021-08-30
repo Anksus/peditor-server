@@ -6,7 +6,7 @@ const port = process.env.PORT || 3001;
 
 const io = require("socket.io")(port, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://peditor-8be2n4w9e-anksus.vercel.app/",
     methods: ["GET", "POST"],
   },
 });
